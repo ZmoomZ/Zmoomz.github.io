@@ -1,0 +1,75 @@
+.main
+	padding-top: 120px
+	padding-bottom: 80px
+	border-bottom: 1px solid #4c4c4c
+	text-align: center
+	&-tittle
+		color: #ffffff
+		font-size: 34px
+		font-weight: 500
+		text-transform: uppercase
+		max-width: 652px
+		margin: 0 auto
+		margin-bottom: 20px
+	&-subtittle
+		color: #8d8d8d
+		font-size: 18px
+		font-weight: 300
+		text-transform: uppercase
+		max-width: 552px
+		margin: 0 auto
+		margin-bottom: 100px
+		span
+			color: #fff
+			font-weight: 500
+	&-slider
+		max-width: 1140px
+		height: 82px
+		margin: 0 auto
+		text-align: center
+		margin-bottom: 85px
+		&__item 
+			width: 80px 
+			height: 80px
+			img
+				margin: 0 auto
+				&:hover
+					cursor: pointer
+	&-offer
+		color: #8d8d8d
+		font-size: 19px
+		font-weight: 400
+		text-transform: uppercase
+		margin-bottom: 36px
+		span
+			color: #ffffff
+			font-weight: 500
+	&-button
+		font-size: 18px
+		color: #ffffff
+		text-transform: uppercase
+		border: none
+		background-color: #ff2e55
+		padding: 18px 60px
+		&:hover
+			cursor: pointer
+			background-color: #ffffff
+			color: brown
+.slider-arrow
+	position: absolute
+	top: 0
+	height: 100%
+	width: 22px
+	z-index: 1
+	&_left
+		background: url(../img/main/slider-left.png) center no-repeat
+		left: 0
+		&:hover
+			background: url(../img/main/left-arrow_active.png) center no-repeat
+			cursor: pointer
+	&_right
+		background: url(../img/main/right-arrow.png) center no-repeat
+		right: 0
+		&:hover
+			background: url(../img/main/right-arrow_active.png) center no-repeat
+			cursor: pointer
